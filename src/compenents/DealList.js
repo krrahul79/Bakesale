@@ -11,7 +11,9 @@ class DealList extends React.Component {
     }
 
     render(){
-        <View style={styles.list}>Deals...</View>
+        <View style={styles.list}>
+            {this.props.deals.map}
+            Deals...</View>
     }
 }
 
